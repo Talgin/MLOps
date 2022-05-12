@@ -1,0 +1,2 @@
+# Command to run container
+docker run --gpus all -it --network=host -v /home/tengri/PROJECTS/MLOps:/scripts --name mlops_container nvidia/cudagl:10.2-devel-ub18.04-conda /bin/bash

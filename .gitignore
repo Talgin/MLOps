@@ -1,0 +1,25 @@
+# Ignore compiled / cached / log files 
+*.pyc
+*log
+*.save
+# Ignore service resulting files
+*.jpg
+*.png
+*.index
+# Byte-compiled / optimized / DLL files
+__pycache__/
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+Pipfile
+Pipfile.lock
+# folders
+ESC-50/
+# archives
+*.zip
+*.rar
