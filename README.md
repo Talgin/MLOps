@@ -1,5 +1,5 @@
-## Face API in FastAPI
-The implementation of our detection and recognition service using FastAPI, tritonclient.
+## Learning MLOps by Sapienza
+MLOps course from Sapienza. Link: https://www.sscardapane.it/teaching/reproducibledl/
 
 ### Installation
 > pipenv shell
