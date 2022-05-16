@@ -18,8 +18,8 @@ env.bak/
 venv.bak/
 Pipfile
 Pipfile.lock
-# folders
-ESC-50/
+# folders, e.g. data folder with all datasets
+reprodl_current/data/
 # archives
 *.zip
 *.rar
