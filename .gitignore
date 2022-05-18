@@ -20,6 +20,8 @@ Pipfile
 Pipfile.lock
 # folders, e.g. data folder with all datasets
 reprodl_current/data/
+.vscode/*
+lightning_log/*
 # archives
 *.zip
 *.rar

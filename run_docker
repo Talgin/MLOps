@@ -1,2 +1,5 @@
 # Command to run container
 docker run --gpus all -it --network=host -v /home/tengri/PROJECTS/MLOps:/scripts --name mlops_container nvidia/cudagl:10.2-devel-ub18.04-conda /bin/bash
+
+# Command to save .ipynb as .py
+jupyter nbconvert Training.ipynb --to script --TemplateExporter.exclude_markdown=True --TemplateExporter.exclude_output_prompt=True --TemplateExporter.exclude_input_prompt=True
